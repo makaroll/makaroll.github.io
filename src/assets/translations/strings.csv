@@ -1,0 +1,30 @@
+key,en,ko,jp
+ui.label.headerMenuScarlet,Scarlet,스칼렛,スカーレット
+ui.label.news,News,뉴스,ニュース
+ui.label.headerMenuSTEAM,steam,steam,steam
+ui.desc.shortDesc,"Roguelike card game <br/>adventure on the go","모바일 로그라이크 <br/>카드 어드밴처","モバイル ローグライク<br/> カード アドベンチャー"
+ui.label.launchDate,Summer 2020,여름 2020,２０２０夏
+ui.label.gameName,Phantom Rose Scarlet,팬텀 로즈 스칼렛,ファントムローズ  スカーレット
+ui.label.gameNameSaph,Phantom Rose 2 Sapphire,팬텀 로즈 2 사파이어,ファントムローズ２ サファイア
+ui.label.pageTitle,Phantom Rose | Card Game by Studio Maka,팬텀 로즈 | Card Game by Studio Maka,ファントムローズ | Card Game by Studio Maka
+ui.desc.pageTitle,"Roguelike card adventure. Build a deck of spell cards to defeat the phantoms and make careful decisions while you explore.","로그라이크 카드 어드밴처. 팬텀들을 쓰러트리기 위한 카드 덱을 만들고 탐험을 하며 신중하게 죽음을 피하세요.","ローグライク・カード・アドベンチャー。ファントムを倒すためカードデッキを作り、探検しながら慎重に死を避けて下さい"
+ui.desc.game,"Phantom Rose is a card game by solo developer & artist makaroll. Play as Reina, a maid in search of her lost master in a mansion now ravaged by evil creatures.","팬텀 로즈는 개발자겸 아티스트 makaroll의 카드 게임입니다. 악에 물든 저택에 잃어버린 주인을 찾아나선 메이드, 레이나로 플레이를 하면서 신중한 선택으로 팬텀들을 쓰러트리며 죽음을 피하세요.",ファントムローズは開発者兼アーティストmakarollのカードゲームです。悪に染まった屋敷に主人を探しているメイド、レイナでプレイして慎重な選択でファントムたちを倒し、死を避けて下さい。
+ui.label.comingsoon,"coming soon! for updates:","출시 뉴스 및 업데이트는:","発売ニュースやアップデートは:"
+ui.desc.shortDescUnformatted,Roguelike card game adventure on the go,모바일 로그라이크 카드 어드밴처,モバイル ローグライク・カードアドベンチャー
+ui.desc.pr2Dev,"Phantom Rose 2 Sapphire now in development!","팬텀 로즈 2 사파이어 개발중!","「ファントムローズ２ サファイア制作中！"
+ui.desc.shortDescSaph,"Roguelike <br/>card adventure.","로그라이크 <br/>카드 어드밴처","ローグライク<br/>カードアドベンチャー"
+ui.label.viewSteam,View on Steam,스팀에서 보기,Steamで見る
+ui.label.platformPC,PC,PC판,PC版
+ui.label.platformMobile,Mobile,모바일판,スマホ版
+ui.desc.gameSaph,"Phantom Rose 2 is a roguelike deckbuilding game by solo developer & artist makaroll. Fight and collect powerful cards as Aria, trying to survive in her cherished school that’s being ravaged by evil creatures.","팬텀 로즈 2는 개발자겸 아티스트 makaroll의 인디 게임입니다. 아리아로서 싸우고 강력한 카드를 모으며, 악에 물들어버린 사랑했던 학교에서 죽음을 피하세요.",ファントムローズ２は開発者兼アーティストmakarollのインディーゲームです。「アリア」として戦って強力なカードを収集しながら、悪に染まった愛してた学園で生き残ってください。
+ui.desc.pr2SteamOpen,"Phantom Rose 2 for PC will release this year on Steam. Please add it to your wishlist! ","팬텀 로즈 2 (PC판)이 올해 스팀에서 릴리스될 예정입니다. 위시리스트에 추가해주세요!","ファントムローズ２（PC版）が今年STEAMでリリースされる予定です！ぜひウィッシュリストに追加してください！"
+ui.label.playNow,Play Now,지금 플레이,今すぐプレイ
+ui.label.oriSoundtrack,Music,뮤직,ミュージック
+ui.desc.musicOut,"Phantom Rose 2 soundtracks now available!","팬텀 로즈 2 OST가 릴리스 되었습니다!","ファントムローズ２のサウンドトラックがリリースされました！"
+ui.label.privacyPolicy,Privacy Policy,개인정보 보호 정책,プライバシーポリシー
+ui.label.termsOfService,Terms of Service,서비스 이용약관,利用規約
+asterika.label.gameName,"Asterika: Phantom Rose Refrain","아스테리카: 팬텀 로즈 리프레인","アステリカ：ファントムローズ・リフレイン"
+asterika.label.comingSoon,"✨ Add to Steam Wishlist today!","✨ 스팀 위시리스트에 추가하세요!","✨ Steam ウィッシュリストに登録！"
+asterika.desc.shortDesc,"Move to the beat, dodge the dangers. Asterika: Phantom Rose Refrain is a rhythm game where you move with the music and follow the story of two girls chasing what was lost.","비트에 맞춰 움직이며, 다가오는 위험을 피하세요. 아스테리카: 팬텀 로즈 리프레인은 음악에 맞춰 움직이며 즐기는 리듬 게임입니다. 쫓고 쫓기는 두 소녀들과의 판타지 스토리에 빠지며 음악에 따라 스스로의 길을 개척해보세요.","ビートに合わせて危険を避けよう！ 「アステリカ：ファントムローズ・リフレイン」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。音楽に合わせて移動し、障害物を避けながら、変化する音楽に柔軟に対応していきましょう！"
+asterika.desc.shortDescUnformatted,"Asterika is a rhythm game where you move with the music and dodge dangers.","아스테리카는 음악에 맞춰 움직이며, 장애물을 피하며 즐기는 리듬 게임입니다.","「アステリカ」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。"
+asterika.desc.longDesc,"Asterika is a grid-based rhythm game about movement and flow. Move with the music, weave through obstacles, and adapt to shifting tempos and patterns! <br/> <br/> There's no fixed button patterns you need to press. Instead, feel the beat, observe the incoming dangers, and find your own way forward.","아스테리카는 6x6 그리드 위에서 진행되는 리듬 게임으로, 움직임과 흐름을 중심으로 진행됩니다. 음악에 맞춰 이동하고, 장애물을 피해가며, 변화하는 음악에 적응하세요!<br/> <br/> 음악에 맞춰 눌러야 하는 지정된 버튼 입력 패턴은 없습니다. 비트를 느끼며, 다가오는 장애물을 관찰하고, 스스로의 길을 개척해보세요.","「アステリカ」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。音楽に合わせて移動し、障害物を避けながら、変化する音楽に柔軟に対応していきましょう！<br/<br/>音楽に合わせて押すべき、決まったボタン入力パターンはありません。ビートを感じ、迫りくる障害物を観察し、自分自身のルートを切り拓きましょう。"

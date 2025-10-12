@@ -1,0 +1,43 @@
+{
+  "ui": {
+    "label": {
+      "headerMenuScarlet": "Scarlet",
+      "news": "News",
+      "headerMenuSTEAM": "steam",
+      "launchDate": "Summer 2020",
+      "gameName": "Phantom Rose Scarlet",
+      "gameNameSaph": "Phantom Rose 2 Sapphire",
+      "pageTitle": "Phantom Rose | Card Game by Studio Maka",
+      "comingsoon": "coming soon! for updates:",
+      "viewSteam": "View on Steam",
+      "platformPC": "PC",
+      "platformMobile": "Mobile",
+      "playNow": "Play Now",
+      "oriSoundtrack": "Music",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "desc": {
+      "shortDesc": "Roguelike card game <br/>adventure on the go",
+      "pageTitle": "Roguelike card adventure. Build a deck of spell cards to defeat the phantoms and make careful decisions while you explore.",
+      "game": "Phantom Rose is a card game by solo developer & artist makaroll. Play as Reina, a maid in search of her lost master in a mansion now ravaged by evil creatures.",
+      "shortDescUnformatted": "Roguelike card game adventure on the go",
+      "pr2Dev": "Phantom Rose 2 Sapphire now in development!",
+      "shortDescSaph": "Roguelike <br/>card adventure.",
+      "gameSaph": "Phantom Rose 2 is a roguelike deckbuilding game by solo developer & artist makaroll. Fight and collect powerful cards as Aria, trying to survive in her cherished school that’s being ravaged by evil creatures.",
+      "pr2SteamOpen": "Phantom Rose 2 for PC will release this year on Steam. Please add it to your wishlist! ",
+      "musicOut": "Phantom Rose 2 soundtracks now available!"
+    }
+  },
+  "asterika": {
+    "label": {
+      "gameName": "Asterika: Phantom Rose Refrain",
+      "comingSoon": "✨ Add to Steam Wishlist today!"
+    },
+    "desc": {
+      "shortDesc": "Move to the beat, dodge the dangers. Asterika: Phantom Rose Refrain is a rhythm game where you move with the music and follow the story of two girls chasing what was lost.",
+      "shortDescUnformatted": "Asterika is a rhythm game where you move with the music and dodge dangers.",
+      "longDesc": "Asterika is a grid-based rhythm game about movement and flow. Move with the music, weave through obstacles, and adapt to shifting tempos and patterns! <br/> <br/> There's no fixed button patterns you need to press. Instead, feel the beat, observe the incoming dangers, and find your own way forward."
+    }
+  }
+}
