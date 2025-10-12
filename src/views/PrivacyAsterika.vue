@@ -22,6 +22,7 @@ export default {
 .vue-simple-markdown {
   max-width: 60rem;
   width: 100%;
+  padding: 4rem 0;
 
   img {
     width: 100%;
