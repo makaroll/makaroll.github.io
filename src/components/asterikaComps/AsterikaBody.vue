@@ -34,10 +34,10 @@ export default {
   computed: {
     // Using Sapphire's video URLs as placeholders
     placeholderVideoUrl() {
-      let defaultPath = 'https://www.youtube.com/embed/r1CZaYOGB68' // Sapphire EN
+      let defaultPath = 'https://www.youtube.com/embed/KEYUkvWbB68' // Sapphire EN
 
-      if (this.$lang === 'ko') defaultPath = 'https://www.youtube.com/embed/r1CZaYOGB68' // Sapphire KO
-      if (this.$lang === 'jp') defaultPath = 'https://www.youtube.com/embed/r1CZaYOGB68' // Sapphire JP
+      if (this.$lang === 'ko') defaultPath = 'https://www.youtube.com/embed/KEYUkvWbB68' // Sapphire KO
+      if (this.$lang === 'jp') defaultPath = 'https://www.youtube.com/embed/KEYUkvWbB68' // Sapphire JP
 
       return defaultPath
     },

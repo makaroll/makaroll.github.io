@@ -15,7 +15,7 @@
     >
       <div
         class="asterika-screens__img-content mb3 px2 col col-6 md-col-6 lg-col-4"
-        v-for="image in placeholderImages"
+        v-for="image in images"
         :key="image.src"
       >
         <div class="asterika-screens__img">
@@ -35,35 +35,63 @@ Vue.use(Viewer)
 export default {
   name: 'AsterikaScreens',
   data: () => ({
-    // Using Sapphire's images as placeholders
-    placeholderImages: [
+    // Base image definitions - will be localized in computed property
+    baseImages: [
       {
-        src: process.env.BASE_URL + 'screens/asterika/1.jpg',
+        id: 1,
         title: 'screenshot 1',
+        hasLocalized: true, // Has jp and ko versions
       },
       {
-        src: process.env.BASE_URL + 'screens/asterika/2.jpg',
+        id: 2,
         title: 'screenshot 2',
+        hasLocalized: true, // Has jp and ko versions
       },
       {
-        src: process.env.BASE_URL + 'screens/asterika/3.jpg',
+        id: 3,
         title: 'screenshot 3',
+        hasLocalized: false,
       },
       {
-        src: process.env.BASE_URL + 'screens/asterika/4.jpg',
+        id: 4,
         title: 'screenshot 4',
+        hasLocalized: false,
       },
       {
-        src: process.env.BASE_URL + 'screens/asterika/5.jpg',
+        id: 5,
         title: 'screenshot 5',
+        hasLocalized: true, // Has jp and ko versions
       },
       {
-        src: process.env.BASE_URL + 'screens/asterika/6.jpg',
+        id: 6,
         title: 'screenshot 6',
+        hasLocalized: false,
       },
-      // Add more placeholders from SapphireScreens if desired
     ],
   }),
+  computed: {
+    currentLanguage() {
+      console.log('currentLanguage', this.$i18n.locale)
+      return this.$i18n ? this.$i18n.locale : 'en'
+    },
+    images() {
+      return this.baseImages.map((image) => {
+        let src
+        if (image.hasLocalized && (this.currentLanguage === 'jp' || this.currentLanguage === 'ko')) {
+          // Use localized version: 1-jp.jpg, 1-ko.jpg, etc.
+          src = process.env.BASE_URL + `screens/asterika/${image.id}-${this.currentLanguage}.jpg`
+        } else {
+          // Use default version: 1.jpg, 2.jpg, etc.
+          src = process.env.BASE_URL + `screens/asterika/${image.id}.jpg`
+        }
+
+        return {
+          src,
+          title: image.title,
+        }
+      })
+    },
+  },
 }
 </script>
 

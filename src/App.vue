@@ -15,7 +15,8 @@
           "
           :class="{ 'header__menu--selected': selected === 'asterika' || selected === 'top' }"
         >
-          Asterika
+          <img src="@/assets/asterika/app-icon.jpg" class="header__menu-img" />
+          <span class="header__menu-text">Asterika</span>
         </div>
 
         <div
@@ -29,7 +30,8 @@
             'header__menu--selected': selected === 'sapphire',
           }"
         >
-          Sapphire
+          <img src="@/assets/sapphire/app-icon.jpg" class="header__menu-img" />
+          <span class="header__menu-text">Sapphire</span>
         </div>
 
         <div
@@ -41,7 +43,8 @@
           "
           :class="{ 'header__menu--selected': selected === 'scarlet' }"
         >
-          Scarlet
+          <img src="@/assets/scarlet/app-icon.jpg" class="header__menu-img" />
+          <span class="header__menu-text">Scarlet</span>
         </div>
         <div
           class="header__menu header__menu--music flex items-center"
@@ -52,7 +55,8 @@
           "
           :class="{ 'header__menu--selected': selected === 'music' }"
         >
-          Music
+          <img src="@/assets/appleM.png" class="header__menu-img" />
+          <span class="header__menu-text">Music</span>
         </div>
       </div>
     </header>
@@ -150,6 +154,7 @@ body {
 .app__content {
   overflow: hidden;
   position: relative;
+  padding-top: 5rem;
   @media screen and (max-width: $breakpoint-sm) {
     // padding: 0 1rem;
   }
@@ -269,14 +274,20 @@ p {
 }
 
 header {
-  height: 4.8rem;
+  height: 5.8rem;
   background: #000;
   font-weight: $font-weight--black;
+  font-size: 1.8rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .header__img-container {
   display: block;
-  height: 60%;
+  height: 70%;
   margin: 0 1rem 0 0.5rem;
 }
 
@@ -286,27 +297,27 @@ header {
 }
 
 .header__menu {
-  opacity: 0.5;
+  opacity: 0.7;
   height: 100%;
-  border-bottom: 0.3rem solid rgb(90, 92, 107);
+  border-bottom: 0.5rem solid rgb(90, 92, 107);
 
   cursor: pointer;
 
   &--selected {
     opacity: 1;
-    border-bottom: 0.3rem solid $hh-red;
+    border-bottom: 0.5rem solid $hh-red;
   }
 
   &--asterika.header__menu--selected {
-    border-bottom: 0.3rem solid $aste-purple;
+    border-bottom: 0.5rem solid $aste-purple;
   }
 
   &--saph.header__menu--selected {
-    border-bottom: 0.3rem solid $hh-blue;
+    border-bottom: 0.5rem solid $hh-blue;
   }
 
   &--music.header__menu--selected {
-    border-bottom: 0.3rem solid $hh-purple;
+    border-bottom: 0.5rem solid $hh-purple;
   }
 
   background: rgb(25, 27, 52);
@@ -329,5 +340,17 @@ header {
   margin-top: 4rem;
   margin-bottom: 4rem;
   // margin-top: 2rem;
+}
+
+.header__menu-img {
+  height: 85%;
+  border-radius: 1rem;
+  padding: 0 0.6rem;
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  .header__menu-text {
+    display: none;
+  }
 }
 </style>

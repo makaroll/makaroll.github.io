@@ -2,7 +2,7 @@
   <div class="asterika-video flex">
     <!-- Using Sapphire's video as placeholder -->
     <div class="asterika-video__player asterika-video__player--full">
-      <video src="/apppreview-asterika.mp4" autoplay muted playsinline loop />
+      <video src="/apppreview-asterika.webm" autoplay muted playsinline loop />
     </div>
   </div>
 </template>

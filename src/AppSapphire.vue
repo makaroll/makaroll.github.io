@@ -27,15 +27,15 @@
               <div class="app-sapphire__cta col-12 sm-col-10 lg-col-7">
                 <h3 class="center mt2 mb3">{{ $t('ui.label.playNow') }}</h3>
                 <div class="cta-border mb2"></div>
-                <div class="flex flex-wrap items-center justify-center pt3">
+                <div class="flex flex-wrap items-center justify-center pt3 app-sapphire__cta-container">
                   <a :href="iosLink" class="mb3">
                     <img :src="appstoreIcon" class="app-sapphire__appstore-icon" />
                   </a>
                   <a :href="andLink" class="mb3">
-                    <img :src="appstoreIconAndroid" class="app-sapphire__appstore-icon ml2" />
+                    <img :src="appstoreIconAndroid" class="app-sapphire__appstore-icon" />
                   </a>
                   <a :href="steamLink" class="mb3">
-                    <img src="/steam.png" class="app-sapphire__appstore-icon ml2" />
+                    <img src="/steam.png" class="app-sapphire__appstore-icon" />
                   </a>
                 </div>
               </div>
@@ -103,6 +103,8 @@ export default {
     this.$nextTick(() => {
       this.onResize()
     })
+
+    window.addEventListener('resize', this.onResize)
   },
 
   computed: {
@@ -309,10 +311,16 @@ export default {
   display: block;
 }
 
+@media screen and (max-width: $breakpoint-sm) {
+  .app-sapphire__appstore-icon {
+    height: 4.8rem;
+  }
+}
+
 .app-sapphire__cta {
   background: rgb(0, 10, 78);
   margin-top: 4rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border: 0.1rem solid #5291d9;
 
   &-opt {
@@ -376,5 +384,9 @@ export default {
 
 .button--yt img {
   height: 75%;
+}
+
+.app-sapphire__cta-container {
+  gap: 1rem;
 }
 </style>

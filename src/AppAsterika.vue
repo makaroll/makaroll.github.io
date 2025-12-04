@@ -124,6 +124,8 @@ export default {
     this.$nextTick(() => {
       this.onResize()
     })
+
+    window.addEventListener('resize', this.onResize)
   },
   computed: {
     descStyle() {
