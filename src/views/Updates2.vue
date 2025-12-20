@@ -17,9 +17,7 @@
 
       <div class="scarlet-new-announcement">
         <h2>{{ $t('ui.label.news') }}</h2>
-        <appMusic :type="'sapphire'" class="wide" />
-
-        <p>{{ $t('ui.desc.musicOut') }}</p>
+        <asterikaUpsell :type="'sapphire'" class="wide" />
       </div>
 
       <div class="updates__content mt2 flex flex-column items-center mb2">
@@ -34,7 +32,7 @@
 </template>
 
 <script>
-import appMusic from '@/AppMusic.vue'
+import asterikaUpsell from '@/components/asterikaComps/AsterikaUpsell.vue'
 export default {
   name: '',
   data: () => ({
@@ -65,7 +63,7 @@ export default {
   },
 
   components: {
-    appMusic,
+    asterikaUpsell,
   },
 }
 </script>
@@ -204,7 +202,7 @@ export default {
   margin-bottom: 4rem;
 
   h2 {
-    padding: 3rem 3rem 0;
+    padding: 2rem 2rem 0;
   }
 
   .scarlet-new-announcement__movie {
@@ -216,7 +214,7 @@ export default {
   }
 
   p {
-    font-size: $font-size--xl;
+    font-size: $font-size--xl + 0.2rem;
     padding: 1.5rem 1.5rem 2rem;
 
     opacity: 1;

@@ -200,39 +200,10 @@ $button-height: 4.8rem;
   }
 }
 
-.button:before,
-.button:after {
-  display: block;
-  content: '';
-  position: absolute;
-  top: 0;
-  transition: all 200ms ease;
-}
-
-.button:before {
-  border-top: $button-height / 2 solid transparent !important;
-  border-bottom: $button-height / 2 solid transparent !important;
-  border-right: 1.8rem solid #f0e9e0;
-  left: -1.8rem;
-}
-
-.button:after {
-  border-top: $button-height / 2 solid transparent !important;
-  border-bottom: $button-height / 2 solid transparent !important;
-  border-left: 1.8rem solid #f0e9e0;
-  right: -1.8rem;
-}
-
 .button--s {
   font-size: $font-size--l;
   height: 4rem;
   line-height: 4rem;
-
-  &:before,
-  &:after {
-    border-top: 2rem solid transparent !important;
-    border-bottom: 2rem solid transparent !important;
-  }
 }
 
 .button:hover {

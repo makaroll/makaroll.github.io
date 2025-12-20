@@ -12,6 +12,7 @@ ui.desc.game,"Phantom Rose is a card game by solo developer & artist makaroll. P
 ui.label.comingsoon,"coming soon! for updates:","출시 뉴스 및 업데이트는:","発売ニュースやアップデートは:"
 ui.desc.shortDescUnformatted,Roguelike card game adventure on the go,모바일 로그라이크 카드 어드밴처,モバイル ローグライク・カードアドベンチャー
 ui.desc.pr2Dev,"Phantom Rose 2 Sapphire now in development!","팬텀 로즈 2 사파이어 개발중!","「ファントムローズ２ サファイア制作中！"
+ui.desc.pr2Out,"Phantom Rose 2 is also available!","팬텀 로즈 2도 출시되었습니다!","ファントムローズ２もリリースされました！"
 ui.desc.shortDescSaph,"Roguelike <br/>card adventure.","로그라이크 <br/>카드 어드밴처","ローグライク<br/>カードアドベンチャー"
 ui.label.viewSteam,View on Steam,스팀에서 보기,Steamで見る
 ui.label.platformPC,PC,PC판,PC版
@@ -24,7 +25,8 @@ ui.desc.musicOut,"Phantom Rose 2 soundtracks now available!","팬텀 로즈 2 OS
 ui.label.privacyPolicy,Privacy Policy,개인정보 보호 정책,プライバシーポリシー
 ui.label.termsOfService,Terms of Service,서비스 이용약관,利用規約
 asterika.label.gameName,"Asterika: Phantom Rose Refrain","아스테리카: 팬텀 로즈 리프레인","アステリカ：ファントムローズ・リフレイン"
-asterika.label.comingSoon,"✨ Add to Steam Wishlist today!","✨ 스팀 위시리스트에 추가하세요!","✨ Steam ウィッシュリストに登録！"
+asterika.label.comingSoon,"✨ Add to Steam Wishlist now!","✨ 지금 스팀 찜목록에 추가하세요!","✨ Steam ウィッシュリストに今すぐ登録！"
 asterika.desc.shortDesc,"Move to the beat, dodge the dangers. Asterika: Phantom Rose Refrain is a rhythm game where you move with the music and follow the story of two girls chasing what was lost.","비트에 맞춰 움직이며, 다가오는 위험을 피하세요. 아스테리카: 팬텀 로즈 리프레인은 음악에 맞춰 움직이며 즐기는 리듬 게임입니다. 쫓고 쫓기는 두 소녀들과의 판타지 스토리에 빠지며 음악에 따라 스스로의 길을 개척해보세요.","ビートに合わせて危険を避けよう！ 「アステリカ：ファントムローズ・リフレイン」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。音楽に合わせて移動し、障害物を避けながら、変化する音楽に柔軟に対応していきましょう！"
 asterika.desc.shortDescUnformatted,"Asterika is a rhythm game where you move with the music and dodge dangers.","아스테리카는 음악에 맞춰 움직이며, 장애물을 피하며 즐기는 리듬 게임입니다.","「アステリカ」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。"
 asterika.desc.longDesc,"Asterika is a grid-based rhythm game about movement and flow. Move with the music, weave through obstacles, and adapt to shifting tempos and patterns! <br/> <br/> There's no fixed button patterns you need to press. Instead, feel the beat, observe the incoming dangers, and find your own way forward.","아스테리카는 6x6 그리드 위에서 진행되는 리듬 게임으로, 움직임과 흐름을 중심으로 진행됩니다. 음악에 맞춰 이동하고, 장애물을 피해가며, 변화하는 음악에 적응하세요!<br/> <br/> 음악에 맞춰 눌러야 하는 지정된 버튼 입력 패턴은 없습니다. 비트를 느끼며, 다가오는 장애물을 관찰하고, 스스로의 길을 개척해보세요.","「アステリカ」は6x6のグリッド上でビートに合わせて動き、障害物を回避するリズムゲームです。音楽に合わせて移動し、障害物を避けながら、変化する音楽に柔軟に対応していきましょう！<br/<br/>音楽に合わせて押すべき、決まったボタン入力パターンはありません。ビートを感じ、迫りくる障害物を観察し、自分自身のルートを切り拓きましょう。"
+ui.desc.asterikaWishlist,"Experience the music of Phantom Rose with the new Rhythm Action game, Asterika on Steam!","팬텀 로즈의 음악을 스팀 신작 리듬 액션게임, 아스테리카에서 경험해보세요!","ファントムローズの音楽を、Steamの新作リズムゲーム『アステリカ』で体験しよう！"

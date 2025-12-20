@@ -6,7 +6,7 @@
         <Trailer :borderless="true" url="https://www.youtube.com/embed/5btbnaw-cao" />
       </div>
 
-      <p>{{ $t('ui.desc.pr2Dev') }}</p>
+      <p>{{ $t('ui.desc.pr2Out') }}</p>
 
       <div class="flex scarlet-new-announcement__buttons justify-center items-center">
         <a
