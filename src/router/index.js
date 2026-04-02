@@ -47,6 +47,12 @@ const routes = [
   },
 
   {
+    path: '/faq/:folder/:file',
+    name: 'faq',
+    component: () => import('@/views/Faq'),
+  },
+
+  {
     path: '/privacy',
     name: 'privacy',
     component: () => import('@/views/Privacy'),
