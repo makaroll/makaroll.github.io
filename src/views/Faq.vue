@@ -46,6 +46,11 @@ export default {
   padding: 3rem 1.5rem;
   background: #111;
   font-size: 2rem;
+  line-height: 1.5;
+
+  li {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .faq__card {
