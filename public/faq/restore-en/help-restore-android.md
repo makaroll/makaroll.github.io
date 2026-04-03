@@ -2,7 +2,7 @@
 
 ### **Android:**
 
-Purchases are tied to your Google Account and can be restored on any Android device using that same account.
+Purchases are tied to your Google Account and can be restored on any Android device using that same account. If you are having trouble restoring, it might be due to bad cache issue.
 
 ### **Checklist:**
 
