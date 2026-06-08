@@ -37,9 +37,9 @@
       "comingSoon": "✨ Add to Steam Wishlist now!"
     },
     "desc": {
-      "shortDesc": "Move to the beat, dodge the dangers. Asterika: Phantom Rose Refrain is a rhythm game where you move with the music and follow the story of two girls chasing what was lost.",
-      "shortDescUnformatted": "Asterika is a rhythm game where you move with the music and dodge dangers.",
-      "longDesc": "Asterika is a grid-based rhythm game about movement and flow. Move with the music, weave through obstacles, and adapt to shifting tempos and patterns! <br/> <br/> There's no fixed button patterns you need to press. Instead, feel the beat, observe the incoming dangers, and find your own way forward."
+      "shortDesc": "Move to the beat and dodge. Asterika: Phantom Rose Refrain is a bullet hell rhythm game where you move with the music and follow the story of two girls chasing what was lost.",
+      "shortDescUnformatted": "Asterika is a bullet hell rhythm game where you move with the music and dodge dangers.",
+      "longDesc": "Asterika is a bullet hell rhythm game about movement and flow. Move with the music, weave through bullet patterns, and master the chaos on the grid! <br/> <br/> There's no fixed button patterns you need to press. Instead, feel the beat, observe the incoming dangers, and find your own way forward."
     }
   }
 }
