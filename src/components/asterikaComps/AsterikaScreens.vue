@@ -45,7 +45,7 @@ export default {
       {
         id: 2,
         title: 'screenshot 2',
-        hasLocalized: true, // Has jp and ko versions
+        hasLocalized: false, // Has jp and ko versions
       },
       {
         id: 3,
@@ -55,7 +55,7 @@ export default {
       {
         id: 4,
         title: 'screenshot 4',
-        hasLocalized: false,
+        hasLocalized: true,
       },
       {
         id: 5,
@@ -65,7 +65,22 @@ export default {
       {
         id: 6,
         title: 'screenshot 6',
-        hasLocalized: false,
+        hasLocalized: true,
+      },
+      {
+        id: 7,
+        title: 'screenshot 7',
+        hasLocalized: true,
+      },
+      {
+        id: 8,
+        title: 'screenshot 8',
+        hasLocalized: true,
+      },
+      {
+        id: 9,
+        title: 'screenshot 9',
+        hasLocalized: true,
       },
     ],
   }),
