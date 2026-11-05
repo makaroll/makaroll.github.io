@@ -85,6 +85,12 @@
             <img src="@/assets/yt.png" />
           </a>
         </div>
+
+        <div class="legal-links mt4">
+          <router-link to="/tosSapphire" class="legal-link-text">
+            {{ $t('ui.label.termsOfService') }}
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -388,5 +394,25 @@ export default {
 
 .app-sapphire__cta-container {
   gap: 1rem;
+}
+
+.legal-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.legal-link-text {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
 }
 </style>

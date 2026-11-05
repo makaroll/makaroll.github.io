@@ -30,7 +30,6 @@ User-Generated Content (Beatmap Editor): The Game allows you to create and share
 
 You agree not to do any of the following:
 
-- Use the Game for any commercial purpose.
 - Reverse engineer, decompile, or disassemble the Game.
 - Interfere with or disrupt the Game or its servers.
 - Violate any applicable law or regulation.

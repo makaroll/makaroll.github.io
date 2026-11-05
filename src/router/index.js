@@ -69,6 +69,12 @@ const routes = [
     name: 'tosAsterika',
     component: () => import('@/views/ToSAsterika'),
   },
+
+  {
+    path: '/tosSapphire',
+    name: 'tosSapphire',
+    component: () => import('@/views/ToSSapphire'),
+  },
 ]
 
 const router = new VueRouter({
