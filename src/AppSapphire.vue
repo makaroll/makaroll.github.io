@@ -87,6 +87,9 @@
         </div>
 
         <div class="legal-links mt4">
+          <router-link to="/privacy" class="legal-link-text">
+            {{ $t('ui.label.privacyPolicy') }}
+          </router-link>
           <router-link to="/tosSapphire" class="legal-link-text">
             {{ $t('ui.label.termsOfService') }}
           </router-link>
