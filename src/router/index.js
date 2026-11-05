@@ -75,6 +75,12 @@ const routes = [
     name: 'tosSapphire',
     component: () => import('@/views/ToSSapphire'),
   },
+
+  {
+    path: '/tosScarlet',
+    name: 'tosScarlet',
+    component: () => import('@/views/ToSScarlet'),
+  },
 ]
 
 const router = new VueRouter({

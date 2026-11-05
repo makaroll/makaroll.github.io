@@ -48,6 +48,14 @@
           ><img src="@/assets/twitter.png"
         /></a>
       </div>
+      <div class="legal-links mb4">
+        <router-link to="/privacy" class="legal-link-text">
+          {{ $t('ui.label.privacyPolicy') }}
+        </router-link>
+        <router-link to="/tosScarlet" class="legal-link-text">
+          {{ $t('ui.label.termsOfService') }}
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -261,5 +269,25 @@ export default {
 
 .app-scarlet__cta {
   margin-top: 1.5rem;
+}
+
+.legal-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.legal-link-text {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
 }
 </style>
